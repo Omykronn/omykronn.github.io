@@ -46,10 +46,11 @@ h2, h3 {
     padding: 11px 10px 11px 5px;
 
     text-align: right;
+    cursor: pointer;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 0;
 }
 
