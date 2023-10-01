@@ -32,9 +32,15 @@ header {
 
 section {
     padding: 0 50px 20px 50px;
+}
 
-    max-height: 90%;
+section#bookmarks_list {
+    max-height: 80%;
     overflow: scroll;
+}
+
+section#shortcuts_list {
+    display: flex;
 }
 
 header, section {   
@@ -78,6 +84,10 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+p {
+    margin: 0;
 }
 
 article.cascade > ul {
@@ -138,4 +148,26 @@ nav a li:hover {
 
 .link_box:hover {
     color: rgba(100, 100, 100, 0.8);
+}
+
+.shortcut {
+    background-color: #373E47;
+    color: #ADBAC7;
+
+    padding: 11px 20px;
+    border-radius: 22px;
+
+    transition: box-shadow 100ms;
+
+    display: flex;
+    align-items: center;
+}
+
+.shortcut:hover {
+    box-shadow: 0 0 5px #22272E;
+}
+
+.shortcut img {
+    height: 1.2em;
+    margin-right: 5px;
 }
