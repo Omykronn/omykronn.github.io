@@ -151,10 +151,8 @@ nav a li:hover {
 }
 
 .shortcut {
-    background-color: #373E47;
-    color: #ADBAC7;
-
     padding: 11px 20px;
+    margin-right: 20px;
     border-radius: 22px;
 
     transition: box-shadow 100ms;
@@ -164,10 +162,24 @@ nav a li:hover {
 }
 
 .shortcut:hover {
-    box-shadow: 0 0 5px #22272E;
+    box-shadow: 0 0 15px #3c424b;
 }
 
 .shortcut img {
     height: 1.2em;
     margin-right: 5px;
+}
+
+.sc1 {
+    background-color: #373E47;
+    color: #ADBAC7;
+
+    box-shadow: 0 0 5px #2a2f36;
+}
+
+.sc2 {
+    background-color: #262657;
+    color: #FEF200;
+
+    box-shadow: 0 0 5px #36368d;
 }
