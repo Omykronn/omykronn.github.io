@@ -1,0 +1,17 @@
+---
+title: Home
+layout: default
+---
+{% for post in site.posts %}
+<article>
+    <h1>{{ post.title }}</h1>
+
+    <p class="publication-date">{{ post.date | date_to_string }}</p>
+
+    {{ post.excerpt }}
+
+    <p class="read-link">
+        <a href="{{ post.url }}">&gt;&gt;&gt; Read</a>
+    </p>
+</article>
+{% endfor %}

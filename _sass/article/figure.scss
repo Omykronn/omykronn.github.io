@@ -1,0 +1,15 @@
+.body {
+    p:has(> img) {
+        text-align: center;
+        font-size: 0.9em;
+
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        white-space: pre;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
