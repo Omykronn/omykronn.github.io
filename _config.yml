@@ -18,6 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+username: omykrönn
+presentation: Cybersecurity Master student
+location: KTH Royal Institute of Technology, Sweden
+email: ""
+
 domain: omykronn.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://omykronn.github.io # the base hostname & protocol for your site, e.g. http://example.com
