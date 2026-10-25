@@ -1,0 +1,42 @@
+.tags {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 10px;
+
+    border-color: var(--tag-color);
+    color: var(--tag-color);
+
+    p {
+        margin: 0;
+        padding: 2px 7px 2px 5px;
+
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 1em;
+    }
+
+    .red {
+        border-color: #E15554;
+        color: #E15554;
+    }
+
+    .yellow {
+        border-color: #E1BC29;
+        color: #E1BC29;
+    }
+
+    .green {
+        border-color: #3BB273;
+        color: #3BB273;
+    }
+
+    .blue {
+        border-color: #4D9DE0;
+        color: #4D9DE0;
+    }
+
+    .purple {
+        border-color: #7768AE;
+        color: #7768AE;
+    }
+}

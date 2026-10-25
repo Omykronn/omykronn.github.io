@@ -1,0 +1,6 @@
+- name: data-sovereignty
+  color: red
+- name: privacy
+  color: blue
+- name: self-hosting
+  color: purple
