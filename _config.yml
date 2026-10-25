@@ -19,8 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 username: omykrönn
-presentation: Cybersecurity Master student
-location: KTH Royal Institute of Technology, Sweden
+role: Cybersecurity Master student
+company: KTH Royal Institute of Technology 
+location: Sweden
 email: ""
 
 domain: omykronn.github.io
