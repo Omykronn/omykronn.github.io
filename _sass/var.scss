@@ -1,0 +1,27 @@
+:root {
+    --bg-primary: #ffffff;
+    --text-primary: #000000;
+    --text-secondary: #555555;
+    --accent: #003dc0;
+
+    --red: #E15554;
+    --yellow: #E1BC29;
+    --green: #3BB273;
+    --blue: #4D9DE0;
+    --violet: #7768AE;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: #3a3e49;
+    --text-primary: #ffffff;
+    --text-secondary: #b4baca;
+    --accent: #92DCE5;
+
+    --red: #d4455f;
+    --yellow: #FFD639;
+    --green: #00AF54;
+    --blue: #008ad4;
+    --violet: #7f65e7;
+  }
+}

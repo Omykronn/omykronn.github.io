@@ -3,9 +3,6 @@
     flex-wrap: wrap;    
     gap: 10px;
 
-    border-color: var(--tag-color);
-    color: var(--tag-color);
-
     p {
         margin: 0;
         padding: 2px 7px 2px 5px;
@@ -16,27 +13,27 @@
     }
 
     .red {
-        border-color: #E15554;
-        color: #E15554;
+        border-color: var(--red);
+        color: var(--red);
     }
 
     .yellow {
-        border-color: #E1BC29;
-        color: #E1BC29;
+        border-color: var(--yellow);
+        color: var(--yellow);
     }
 
     .green {
-        border-color: #3BB273;
-        color: #3BB273;
+        border-color: var(--green);
+        color: var(--green);
     }
 
     .blue {
-        border-color: #4D9DE0;
-        color: #4D9DE0;
+        border-color: var(--blue);
+        color: var(--blue);
     }
 
     .purple {
-        border-color: #7768AE;
-        color: #7768AE;
+        border-color: var(--violet);
+        color: var(--violet);
     }
 }

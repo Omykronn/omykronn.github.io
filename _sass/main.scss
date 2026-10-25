@@ -1,7 +1,15 @@
 body {
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+
     font-family: monospace;
     font-size: 1.75em;
+
     text-align: justify;
 
     line-height: 1.4;
+}
+
+a {
+    color: var(--accent);
 }
