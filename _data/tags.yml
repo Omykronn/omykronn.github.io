@@ -4,3 +4,7 @@
   color: blue
 - name: self-hosting
   color: purple
+- name: ctf
+  color: yellow
+- name: steganography
+  color: green
